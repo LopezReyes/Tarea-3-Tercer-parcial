@@ -1,0 +1,76 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo de la página */
+body {
+    background-color: #138d3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(235, 22, 22, 0.637);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título principal */
+h1 {
+    color: #2e3a59;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Texto de instrucciones */
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* Estilo del campo de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(226, 27, 27);
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(53, 165, 59);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ce2f1a;
+}
+
+/* Estilo del párrafo de resultados */
+#resultados {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: rgb(207, 20, 20);
+    font-weight: bold;
+}
